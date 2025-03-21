@@ -1,5 +1,49 @@
 # Changelog
 
+## [0.0.29](https://github.com/shruti0085/language-servers/compare/lsp-codewhisperer/v0.0.28...lsp-codewhisperer/v0.0.29) (2025-03-21)
+
+
+### Features
+
+* abort all inflight requests when resetCodewhispererService is invoked ([#848](https://github.com/shruti0085/language-servers/issues/848)) ([681889b](https://github.com/shruti0085/language-servers/commit/681889bd40a0fb84ea624f177b07ef579864303a))
+* added auth listener to reset the service manager state in case of bearer token signout ([#842](https://github.com/shruti0085/language-servers/issues/842)) ([780be3f](https://github.com/shruti0085/language-servers/commit/780be3fdb92917e58524472ea5967f405f802db5))
+* **amazonq:** add support for listing available q developer profiles ([40ee2ff](https://github.com/shruti0085/language-servers/commit/40ee2ff254e0cfdeb54fef850bcfb1c45dd898ab))
+* **amazonq:** centralize access to Q Service SDK instance and add support for Q Developer profiles ([#814](https://github.com/shruti0085/language-servers/issues/814)) ([5f11549](https://github.com/shruti0085/language-servers/commit/5f11549bb37acf3788c991a4ceeb38a7b17f1324))
+* **amazonq:** handle client signalling support for q developer profiles ([#839](https://github.com/shruti0085/language-servers/issues/839)) ([8b1b4ad](https://github.com/shruti0085/language-servers/commit/8b1b4ad88138091bacacdaa7abcccaafed85b1ff))
+* **amazonq:** integrate q service manager with configuration server ([#852](https://github.com/shruti0085/language-servers/issues/852)) ([c0e3290](https://github.com/shruti0085/language-servers/commit/c0e32905e5940a79f59b19913aac9f989e85f8fe))
+* **amazonq:** stop emitting userDecision telemetry event ([dc51d24](https://github.com/shruti0085/language-servers/commit/dc51d2472390f14490ec175ce94e841f5ee24417))
+* bugfix for artifacts upload ([#749](https://github.com/shruti0085/language-servers/issues/749)) ([71c0a19](https://github.com/shruti0085/language-servers/commit/71c0a19974428037160152cc7e40cd6c399ceec9))
+* **chat-client:** handle 'openTab' requests ([#817](https://github.com/shruti0085/language-servers/issues/817)) ([fdd0b87](https://github.com/shruti0085/language-servers/commit/fdd0b87ad2d2c9a540d2594bb9243cad01b5887a))
+* **chat-client:** openTab returns error for tab create if tabs limit hit ([#832](https://github.com/shruti0085/language-servers/issues/832)) ([aa85848](https://github.com/shruti0085/language-servers/commit/aa8584815da1ef6298b83c8d1bb2a1011ed66fe5))
+* **identity:** device code support ([#823](https://github.com/shruti0085/language-servers/issues/823)) ([6d5368e](https://github.com/shruti0085/language-servers/commit/6d5368e33a36a3003dc04e9c429b63edda6989de))
+* Setting a flag with environment variable to retain generated input artifacts ([#807](https://github.com/shruti0085/language-servers/issues/807)) ([fc9a5b5](https://github.com/shruti0085/language-servers/commit/fc9a5b5fe4e4ae8babbff0bbed28263ae99c1385))
+
+
+### Bug Fixes
+
+* convert makeProxyConfig to sync to allow proxy configs to be loa… ([#725](https://github.com/shruti0085/language-servers/issues/725)) ([7ea8150](https://github.com/shruti0085/language-servers/commit/7ea81505c4c69a0a3ba3b595a51fd40b9db14947))
+* fixing model change for skipped step ([#670](https://github.com/shruti0085/language-servers/issues/670)) ([630e6fd](https://github.com/shruti0085/language-servers/commit/630e6fde0b70bb1148e6acdc67c96d40319b6ce7))
+* make proxy nodejs only ([#716](https://github.com/shruti0085/language-servers/issues/716)) ([37cf726](https://github.com/shruti0085/language-servers/commit/37cf726e4926640da158ee67d86a1937b2c89c68))
+* marking aws field as optional in initializationOptions ([#757](https://github.com/shruti0085/language-servers/issues/757)) ([d435c99](https://github.com/shruti0085/language-servers/commit/d435c992c44214523eadfe252bb80d70ffa191f6))
+* move CW streaming client to tarball ([#743](https://github.com/shruti0085/language-servers/issues/743)) ([a1a17d8](https://github.com/shruti0085/language-servers/commit/a1a17d853bd1d33897e2deaacec53d6d62bbe2ec))
+* prevent override of client request listeners in CodeWhispererServiceIAM ([#784](https://github.com/shruti0085/language-servers/issues/784)) ([cd85931](https://github.com/shruti0085/language-servers/commit/cd85931f1981921cd5692944fbe1b638124e4457))
+* removing duplicated nuget packages folder ([#746](https://github.com/shruti0085/language-servers/issues/746)) ([24b44d0](https://github.com/shruti0085/language-servers/commit/24b44d03ce6d2127099a6ce8c33cd63b55fae290))
+* replace setInterval with recursive setTimeout for browser compatibility ([48b8fd1](https://github.com/shruti0085/language-servers/commit/48b8fd1fd780770cb4b94bb1be33882f204a77e8))
+* revert "chore: bump archiver from 6.0.2 to 7.0.1" ([#762](https://github.com/shruti0085/language-servers/issues/762)) ([8d490e5](https://github.com/shruti0085/language-servers/commit/8d490e5022e9ae2dd3ba8514a7dd3dbd1609e290))
+* revert "feat: bugfix for artifacts upload" ([#766](https://github.com/shruti0085/language-servers/issues/766)) ([0c07a17](https://github.com/shruti0085/language-servers/commit/0c07a175218d5deaa2cc4c3cd23641ed8ad0f71e))
+
+
+### Performance Improvements
+
+* dispose chat controller in chatController tests ([#717](https://github.com/shruti0085/language-servers/issues/717)) ([b0e6b78](https://github.com/shruti0085/language-servers/commit/b0e6b78bcee5970eac8159d2a46bae152f1d238d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @aws/lsp-core bumped from ^0.0.2 to ^0.0.3
+
 ## [0.0.28](https://github.com/aws/language-servers/compare/lsp-codewhisperer/v0.0.27...lsp-codewhisperer/v0.0.28) (2025-03-18)
 
 
