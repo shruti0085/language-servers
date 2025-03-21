@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/shruti0085/language-servers/compare/lsp-core/v0.0.2...lsp-core/v0.0.3) (2025-03-21)
+
+
+### Features
+
+* **identity:** device code support ([#823](https://github.com/shruti0085/language-servers/issues/823)) ([6d5368e](https://github.com/shruti0085/language-servers/commit/6d5368e33a36a3003dc04e9c429b63edda6989de))
+
 ## [0.0.2](https://github.com/aws/language-servers/compare/lsp-core/v0.0.1...lsp-core/v0.0.2) (2025-03-18)
 
 

@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.3](https://github.com/shruti0085/language-servers/compare/chat-client/v0.1.2...chat-client/v0.1.3) (2025-03-21)
+
+
+### Features
+
+* **chat-client:** handle 'openTab' requests ([#817](https://github.com/shruti0085/language-servers/issues/817)) ([fdd0b87](https://github.com/shruti0085/language-servers/commit/fdd0b87ad2d2c9a540d2594bb9243cad01b5887a))
+* **chat-client:** openTab returns error for tab create if tabs limit hit ([#832](https://github.com/shruti0085/language-servers/issues/832)) ([aa85848](https://github.com/shruti0085/language-servers/commit/aa8584815da1ef6298b83c8d1bb2a1011ed66fe5))
+* update mynah-ui to v4.22.1 ([#794](https://github.com/shruti0085/language-servers/issues/794)) ([5630ed3](https://github.com/shruti0085/language-servers/commit/5630ed33005291194e2f9391ec20647b37fa4626))
+
+
+### Bug Fixes
+
+* bump mynah-ui version ([#843](https://github.com/shruti0085/language-servers/issues/843)) ([4b4de1e](https://github.com/shruti0085/language-servers/commit/4b4de1e01143521e5f497ae5780551dd60e0a4fd))
+
 ## [0.1.2](https://github.com/aws/language-servers/compare/chat-client/v0.1.1...chat-client/v0.1.2) (2025-03-18)
 
 
